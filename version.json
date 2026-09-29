@@ -1,5 +1,5 @@
 {
   "latest_version": "3.40.03",
   "download_url": "https://github.com/giangnn1993/Ssubvideo/releases/latest/download/Setup_Ssubvideo.exe",
-  "release_notes": "🎉 Cập nhật Ssubvideo v3.40.03:\n- Tối ưu hóa tự động lưu trữ cấu hình giao diện UI và profile người dùng.\n- Nâng cấp độ chính xác bóc băng OCR và dịch ghi chú / tiêu đề đa vùng độc lập.\n- Tối ưu tốc độ xuất video và hiệu ứng màu sắc điện ảnh (Mood Grading).\n- Đồng bộ hóa giọng đọc thuyết minh AI và tách nhạc nền BGM thông minh."
+  "release_notes": "🎉 Cập nhật Ssubvideo v3.40.03:\n- Tối ưu hóa tự động lưu trữ cấu hình giao diện UI và profile người dùng."
 }
