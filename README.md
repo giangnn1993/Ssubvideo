@@ -1,4 +1,4 @@
-# 🎬 Ssubvideo Pro - Phần Mềm Dịch Video & Lồng Tiếng AI Tự Động Hóa
+# 🎬 Ssubvideo - Phần Mềm Dịch Video & Chuyển văn bản thành giọng nói và nhân bản giọng nói với ngôn ngữ tự nhiên.
 
 <p align="center">
   <a href="https://github.com/giangnn1993/Ssubvideo/releases/latest"><img src="https://img.shields.io/github/v/release/giangnn1993/Ssubvideo?color=blue&label=Phi%C3%AAn%20b%E1%BA%A3n" alt="Latest Release"></a>
@@ -13,26 +13,28 @@
 
 | Phiên bản | Định dạng | Hệ điều hành | Liên kết tải trực tiếp |
 | :--- | :--- | :--- | :--- |
-| **v3.40.02 (Mới nhất)** | Bộ cài đặt Windows (`.exe`) | Windows 10/11 (64-bit) | [⬇️ **TẢI BẢN CÀI ĐẶT SSUBVIDEO (EXE)**](https://github.com/giangnn1993/Ssubvideo/releases/latest/download/Setup_Ssubvideo.exe) |
+| **v3.43 (Mới nhất)** | Bộ cài đặt Windows (`.exe`) | Windows 10/11 (64-bit) | [⬇️ **TẢI BẢN CÀI ĐẶT SSUBVIDEO (EXE)**](https://github.com/giangnn1993/Ssubvideo/releases/latest/download/Setup_Ssubvideo.exe) |
 
 > 💡 **Lưu ý:** Phần mềm hỗ trợ Windows 10/11 64-bit. Tải về và mở file `Setup_Ssubvideo.exe` để cài đặt tự động.
 
 ---
 
 ## 🌟 Tính Năng Nổi Bật (Key Features)
-
+### I. 🎬 CHỨC NĂNG VIDEO RENDER DÀNH CHO DỊCH SUB VIDEO
 ### 1. 🔍 Bóc Băng & Nhận Diện Phụ Đề AI (Optical Character Recognition - OCR)
-- Bóc băng phụ đề cứng từ video Douyin, Kuaishou, TikTok, YouTube, Reels với độ chính xác cao nhờ công nghệ **RapidOCR / PaddleOCR**.
-- **Tự động quét và phân cụm thông minh (`Auto Cluster`)**: Tự động nhận diện chính xác vị trí thanh phụ đề gốc kể cả khi phụ đề nằm sát mép đáy video.
+- Tự động bóc phụ đề cứng từ với thuật toán được tối ưu dùng OCR cho độ bóc sub có độ chính xác cao lên tới 99.9%.
+- Tự động chuyển âm thanh video thành sub với thuật toán tối ưu dùng được cho cả máy cấu hình thấp chỉ có CPU mà không cần GPU
+- Tự động nhận diện chính xác vị trí thanh phụ đề gốc, tiêu đề hoặc các vùng ghi chú khác nhau.
+- Tự động dịch sub bằng chatgpt hoặc gemni với tài khoản free mà không bị giới hạn với thuật toán vòng lặp và ngắt nghỉ.
 
 ### 2. 🌐 Dịch Thuật Đa Ngôn Ngữ Siêu Tốc
 - Hỗ trợ dịch tự động **Trung - Việt**, **Anh - Việt**, **Hàn - Việt**, **Nhật - Việt**, v.v.
-- Tích hợp **CTranslate2 Offline** (dịch tốc độ cao không cần mạng) và **AI Zero-Shot Translation** (văn phong chuẩn tự nhiên, khớp ngữ cảnh).
+- Tích hợp SDK dịch offline (dịch tốc độ cao không cần mạng) và **AI Zero-Shot Translation** (văn phong chuẩn tự nhiên, khớp ngữ cảnh).
 
 ### 3. 🎙️ Thuyết Minh & Lồng Tiếng AI (AI Voice Synthesis & Voice Clone)
 - **Hơn 50+ giọng đọc tự nhiên:** Giọng truyền cảm, tin tức, MC, kể chuyện phim, review phim (Bắc - Trung - Nam).
 - **Voice Clone (Nhân bản giọng nói):** Tự động học và sao chép âm sắc giọng nói từ file âm thanh mẫu chỉ sau vài giây.
-- **Tách & Ghép Nhạc Nền (BGM Ducking):** Ứng dụng công nghệ **Demucs AI** tách riêng giọng nói gốc và nhạc nền, tự động giảm âm lượng nhạc nền `-12dB` khi có giọng thuyết minh AI.
+- **Tách & Ghép Nhạc Nền:** Ứng dụng công nghệ tách riêng giọng nói gốc và nhạc nền, tự động giảm âm lượng nhạc nền `-12dB` khi có giọng thuyết minh AI. Có thể thêm mới audio nền hoặc sử dụng audio gốc của video.
 
 ### 4. 📐 Định Vị & Che Mờ Phụ Đề Thông Minh
 - **Chế độ Song ngữ:** Phụ đề dịch tự động lồng sát ngay dưới (hoặc trên) phụ đề gốc theo tỷ lệ vàng hiển thị.
@@ -46,6 +48,19 @@ Tích hợp 4 bộ lọc chuẩn màu điện ảnh cao cấp:
 3. **Tone Sương Lam Chàm Đêm Trăng (Moonlight Slate Indigo):** Chuyển màu vàng/lá sang tông lam chàm thanh tịnh, đậm chất thiền định.
 4. **Tone Xanh Lạnh Trong Trẻo (Light Cool Blue 3D LUT):** Nâng sáng nhẹ, mát dịu, hình ảnh trong trẻo tự nhiên.
 
+### 6. Hỗ trợ watermark đa kiểu
+1. **Watermark:** sử dụng watermark dạng text hoặc ảnh, có thể di chuyển theo ngẫu nhiên hoặc đa hướng trong video
+2. **Thuật toán nén video:** hỗ trợ 7 thuật toán nén video giúp video đạt chất lượng cao và tránh trùng lặp.
+3. **Intro và Outro:** chen intro và outro bản quyền bằng video hoặc audio của người dùng vào video hàng loạt
+
+### 7. Tính năng nâng cao khác
+1. **Làm vệc từ xa:** Có thể dùng bot telegram để ra lệnh render video từ xa, gửi video qua bot để ứng dụng render và trả lại telegram
+2. **Cài đặt cấu hình:** Hỗ trợ nhiều profile cấu hình khác nhau giúp luôn phiên tạo kênh khác nhau với chủ đề khác nhau mà không cần cấu hình lại.
+
+### II. 🎙️ CHỨC NĂNG VOICE PRO CHUYỂN VĂN BẢN THÀNH GIỌNG NÓI VỚI NGÔN NGỮ TỰ NHIÊN
+1. **Chuyển văn bản thành giọng nói:** chuyển văn bản text, file sub không giới hạn ký tự, giọng nói tự nhiên
+2. **Nhân bản giọng nói:** Nhân bản siêu nhanh giọng nói mẫu với file mẫu dài 8-30s
+3. **Thay đổi nhịp độ giọng đọc:** Thay đổi tốc độ nhịp đọc tùy ý.
 ---
 
 ## 🚀 Hướng Dẫn Sử Dụng Nhanh
