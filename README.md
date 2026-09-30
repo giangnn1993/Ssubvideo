@@ -1,6 +1,8 @@
 # 🎬 Ssubvideo - Phần Mềm Dịch Video & Chuyển văn bản thành giọng nói và nhân bản giọng nói với ngôn ngữ tự nhiên.
 
 <p align="center">
+  [![Official Website](https://img.shields.io/badge/Website-ssubvideo.io.vn-00df82?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ssubvideo.io.vn/)
+[![Download Setup](https://img.shields.io/badge/Download-Setup_v3.43.exe-4edea3?style=for-the-badge&logo=windows&logoColor=black)](https://ssubvideo.io.vn/)
   <a href="https://github.com/giangnn1993/Ssubvideo/releases/latest"><img src="https://img.shields.io/github/v/release/giangnn1993/Ssubvideo?color=blue&label=Phi%C3%AAn%20b%E1%BA%A3n" alt="Latest Release"></a>
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows" alt="Platform">
   <img src="https://img.shields.io/badge/AI%20Engine-RapidOCR%20%7C%20Edge--TTS%20%7C%20Demucs-success" alt="AI Engine">
