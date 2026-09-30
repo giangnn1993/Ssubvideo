@@ -1,14 +1,25 @@
-# 🎬 Ssubvideo - Phần Mềm Dịch Video & Chuyển văn bản thành giọng nói và nhân bản giọng nói với ngôn ngữ tự nhiên.
-
-<p align="center">
-  [![Official Website](https://img.shields.io/badge/Website-ssubvideo.io.vn-00df82?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ssubvideo.io.vn/)
-[![Download Setup](https://img.shields.io/badge/Download-Setup_v3.43.exe-4edea3?style=for-the-badge&logo=windows&logoColor=black)](https://ssubvideo.io.vn/)
-  <a href="https://github.com/giangnn1993/Ssubvideo/releases/latest"><img src="https://img.shields.io/github/v/release/giangnn1993/Ssubvideo?color=blue&label=Phi%C3%AAn%20b%E1%BA%A3n" alt="Latest Release"></a>
-  <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows" alt="Platform">
-  <img src="https://img.shields.io/badge/AI%20Engine-RapidOCR%20%7C%20Edge--TTS%20%7C%20Demucs-success" alt="AI Engine">
-  <img src="https://img.shields.io/badge/License-Free%20%2F%20Pro-orange" alt="License">
-</p>
-
+<div align="center">
+  <h1>🎬 SSubVideo AI Studio</h1>
+  <p><b>Phần mềm tự động hóa dịch video, bóc băng OCR, che mờ viền mềm & nhân bản giọng nói AI</b></p>
+  <!-- Hàng 1: Nút Action nổi bật (Website & Download) -->
+  <p>
+    <a href="https://ssubvideo.io.vn/" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_Official_Website-ssubvideo.io.vn-00df82?style=for-the-badge&logoColor=white" alt="Website">
+    </a>
+    <a href="https://github.com/giangnn1993/Ssubvideo/releases/latest/download/Setup_Ssubvideo.exe">
+      <img src="https://img.shields.io/badge/⬇️_Tải_Bản_Setup-v3.43_PRO-4edea3?style=for-the-badge&logoColor=black" alt="Download">
+    </a>
+  </p>
+  <!-- Hàng 2: Huy hiệu Thông số Kỹ thuật (Đồng bộ chuẩn) -->
+  <p>
+    <a href="https://github.com/giangnn1993/Ssubvideo/releases/latest">
+      <img src="https://img.shields.io/badge/Release-v3.43_PRO-38bdf8?style=flat-square&logo=github" alt="Latest Release">
+    </a>
+    <img src="https://img.shields.io/badge/Platform-Windows_10_|_11_(64--bit)-0078D6?style=flat-square&logo=windows" alt="Platform">
+    <img src="https://img.shields.io/badge/AI_Engine-RapidOCR_|_Edge--TTS_|_Demucs-10b981?style=flat-square" alt="AI Engine">
+    <img src="https://img.shields.io/badge/License-FREE_|_PRO_TRIAL-f59e0b?style=flat-square" alt="License">
+  </p>
+</div>
 ---
 
 ## 📥 Tải Về & Cài Đặt (Download)
