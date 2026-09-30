@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🎬 SSubVideo AI Studio</h1>
+  <h1>🎬 SSubVideo Phần mềm dịch sub video đa ngôn ngữ</h1>
   <p><b>Phần mềm tự động hóa dịch video, bóc băng OCR, che mờ viền mềm & nhân bản giọng nói AI</b></p>
   <!-- Hàng 1: Nút Action nổi bật (Website & Download) -->
   <p>
@@ -20,7 +20,6 @@
     <img src="https://img.shields.io/badge/License-FREE_|_PRO_TRIAL-f59e0b?style=flat-square" alt="License">
   </p>
 </div>
----
 
 ## 📥 Tải Về & Cài Đặt (Download)
 
